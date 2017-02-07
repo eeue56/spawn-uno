@@ -1,6 +1,6 @@
 {
   "name": "spawn-uno",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Spawn multiple Uno build instances at once",
   "bin": {
     "spawn-uno": "index.js"
