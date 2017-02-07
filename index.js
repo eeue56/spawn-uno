@@ -7,9 +7,11 @@ const chalk = require('chalk');
 const yargv = yargs
     .example('$0 android native', 'Spawn Uno build for android and Mac OS X')
     .alias('v', 'verbose')
+    .default('v', false)
+    .describe('v', 'Print all messages out')
     .alias('u', 'uno')
     .describe('uno', 'Specify a path to the `uno` binary')
-    .example('$0 native --uno ~/dev/uno/uno')
+    .example('$0 native --uno ~/dev/uno/uno', 'Spawn Uno build for Mac OS X using the binary provided')
     .default('uno', 'uno')
     .help('h')
     .alias('h', 'help')
