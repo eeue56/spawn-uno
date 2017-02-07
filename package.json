@@ -1,0 +1,30 @@
+{
+  "name": "spawn-uno",
+  "version": "1.0.0",
+  "description": "Spawn multiple Uno build instances at once",
+  "bin": {
+    "spawn-uno": "index.js"
+  },
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/eeue56/spawn-uno.git"
+  },
+  "keywords": [
+    "uno",
+    "fuse"
+  ],
+  "author": "eeue56",
+  "license": "BSD-3-Clause",
+  "bugs": {
+    "url": "https://github.com/eeue56/spawn-uno/issues"
+  },
+  "homepage": "https://github.com/eeue56/spawn-uno#readme",
+  "dependencies": {
+    "chalk": "^1.1.3",
+    "yargs": "^6.6.0"
+  }
+}
